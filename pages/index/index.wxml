@@ -10,4 +10,10 @@
   <view class="usermotto">
     <text class="user-motto title">{{motto}}</text>
   </view>
+  <view>{{counter}}</view>
+  <view>
+    <button size="mini" bindtap="hanleClickPlus">+</button>
+    <button size="mini" bindtap="hanleClickMinus">-</button>
+  </view>
+
 </view>
