@@ -6,9 +6,23 @@
   ],
   "window": {
     "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "WeChat",
-    "navigationBarTextStyle": "black"
+    "navigationBarBackgroundColor": "#ff5777",
+    "navigationBarTitleText": "First miniProgram",
+    "navigationBarTextStyle": "white",
+    "backgroundColor": "gray"
+  },
+  "tabBar": {
+    "selectedColor": "#ff5777",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "Home"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "text": "Logs"
+      }
+    ]
   },
   "sitemapLocation": "sitemap.json"
 }
