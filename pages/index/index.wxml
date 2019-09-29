@@ -10,5 +10,5 @@
   <view class="usermotto">
     <text class="user-motto title">{{motto}}</text>
   </view>
-  <view>learn 2.1</view>
+  <view>learn 3</view>
 </view>
