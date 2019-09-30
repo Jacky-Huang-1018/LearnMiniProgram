@@ -1,0 +1,27 @@
+<!--pages/button/button.wxml-->
+<text>pages/button/button.wxml</text>
+<button>click</button>
+
+<!-- size属性 -->
+
+<button size="mini">click sizeMini</button>
+<button size="mini">click sizeMini</button>
+
+<!-- type属性 -->
+
+<button type="primary">click</button>
+<button type="warn">warn</button>
+
+<!-- 缕空效果 -->
+<button plain="true">Plain 1</button>
+<button plain>Plain 2</button>
+
+<!-- disabled -->
+<button disabled>disabled</button>
+
+<!-- loading -->
+<button loading type="primary">Loading</button>
+<button loading="{{isLoading}}" type="primary">Loading</button>
+
+<!-- hover-class -->
+<button hover-class="pressed">hover-class</button>
